@@ -8,19 +8,19 @@
             HorizontalOptions="Center" />
         <HorizontalStackLayout Spacing="8">
             <Label Text="Username:" VerticalOptions="Center" WidthRequest="140" />
-            <Entry x:Name="UsernameEntry" FontSize="16" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="UsernameEntry" FontSize="16" />
         </HorizontalStackLayout>
         <HorizontalStackLayout Spacing="8">
             <Label Text="Email:" VerticalOptions="Center" WidthRequest="140" />
-            <Entry x:Name="EmailEntry" FontSize="16" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="EmailEntry" FontSize="16" />
         </HorizontalStackLayout>
         <HorizontalStackLayout Spacing="8">
             <Label Text="Password:" VerticalOptions="Center" WidthRequest="140" />
-            <Entry x:Name="PasswordEntry" FontSize="16" IsPassword="True" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="PasswordEntry" FontSize="16" IsPassword="True" />
         </HorizontalStackLayout>
         <HorizontalStackLayout Spacing="8">
             <Label Text="Confirm Password:" VerticalOptions="Center" WidthRequest="140" />
-            <Entry x:Name="ConfirmPasswordEntry" FontSize="16" IsPassword="True" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="ConfirmPasswordEntry" FontSize="16" IsPassword="True"/>
         </HorizontalStackLayout>
         <Button Text="Go to Profile" Clicked="OnGoToProfileClicked" />
     </VerticalStackLayout>
