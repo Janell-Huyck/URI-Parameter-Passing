@@ -1,0 +1,10 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="URI_Parameter_Passing.ProfilePage">
+    <VerticalStackLayout>
+        <Label Text="Profile" FontSize="20" FontWeight="Bold" />
+        <Label x:Name="UsernameLabel" Text="Username: " />
+        <Label x:Name="EmailLabel" Text="Email: " />
+        <Button Text="Go to Signup" Clicked="OnGoToSignupClicked" />
+    </VerticalStackLayout>
+</ContentPage>

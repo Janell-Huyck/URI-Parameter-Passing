@@ -8,8 +8,8 @@
     Title="URI_Parameter_Passing">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Signup"
+        ContentTemplate="{DataTemplate local:SignupPage}"
+        Route="SignupPage" />
 
 </Shell>
