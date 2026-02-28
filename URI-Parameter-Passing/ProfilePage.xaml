@@ -3,9 +3,9 @@
              x:Class="URI_Parameter_Passing.ProfilePage">
     <VerticalStackLayout>
         <Label 
-            Text="Profile"
-            FontSize="20"/>
-        <Label 
+            Text="Profile" 
+            FontSize="20"  />
+        <Label
             x:Name="UsernameLabel" 
             Text="Username: " />
         <Label 
