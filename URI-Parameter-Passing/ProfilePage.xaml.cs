@@ -22,7 +22,7 @@ namespace URI_Parameter_Passing
 
         private async void OnGoToSignupClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(SignupPage));
+            await Shell.Current.GoToAsync("..");
         }
     }
 }
