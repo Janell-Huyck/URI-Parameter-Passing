@@ -5,7 +5,6 @@
         <Label 
             Text="Signup" 
             FontSize="20"
-            FontWeight="Bold"
             HorizontalOptions="Center" />
         <Entry
             x:Name="UsernameEntry" 
