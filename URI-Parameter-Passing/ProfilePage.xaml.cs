@@ -20,9 +20,9 @@ namespace URI_Parameter_Passing
             EmailLabel.Text = $"Email: {Email ?? ""}";
         }
 
-        private void OnGoToSignupClicked(object sender, EventArgs e)
+        private async void OnGoToSignupClicked(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync(nameof(SignupPage));
+            await Shell.Current.GoToAsync(nameof(SignupPage));
         }
     }
 }
